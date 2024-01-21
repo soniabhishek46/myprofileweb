@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/myprofileweb/static/css/main.9680dd72.css",
+    "main.js": "/myprofileweb/static/js/main.29293113.js",
+    "static/js/787.e53f9a69.chunk.js": "/myprofileweb/static/js/787.e53f9a69.chunk.js",
+    "static/media/IMG_2723.jpg": "/myprofileweb/static/media/IMG_2723.7448626b2dd01a9e3338.jpg",
+    "static/media/express-svgrepo-com.svg": "/myprofileweb/static/media/express-svgrepo-com.ebe71e3af30909288001fd7bc6d0094a.svg",
+    "static/media/file-cv-svgrepo-com.svg": "/myprofileweb/static/media/file-cv-svgrepo-com.6086a8f0ac64621f1a50596c73f81ce5.svg",
+    "static/media/machine-learning-01-svgrepo-com.svg": "/myprofileweb/static/media/machine-learning-01-svgrepo-com.d00aae53fb9ce871fb3fcd383d4827c5.svg",
+    "static/media/cricket-helmet-svgrepo-com.svg": "/myprofileweb/static/media/cricket-helmet-svgrepo-com.2ebd3226eb6d49b811fea16c470c8dda.svg",
+    "static/media/reactjs-svgrepo-com.svg": "/myprofileweb/static/media/reactjs-svgrepo-com.e72c9ed5483656b44c338310ad3219ce.svg",
+    "static/media/eggplant-svgrepo-com.svg": "/myprofileweb/static/media/eggplant-svgrepo-com.4389b4f4d1f2ae8f7d6e1e1a76f90d81.svg",
+    "static/media/email-18-svgrepo-com.svg": "/myprofileweb/static/media/email-18-svgrepo-com.04601dcf33b7983ecf8494e975e887aa.svg",
+    "static/media/python-svgrepo-com.svg": "/myprofileweb/static/media/python-svgrepo-com.4298525c028749eb4fa154f8f5bd1931.svg",
+    "static/media/github-142-svgrepo-com.svg": "/myprofileweb/static/media/github-142-svgrepo-com.5531be85d7a8d6f333e5c7136944a022.svg",
+    "static/media/cross-svgrepo-com.svg": "/myprofileweb/static/media/cross-svgrepo-com.f0f692777cafa708605f091ea38c8bca.svg",
+    "static/media/camera-svgrepo-com.svg": "/myprofileweb/static/media/camera-svgrepo-com.8849c01d0740363b0cf1c374fb6afe02.svg",
+    "static/media/twitter-svgrepo-com.svg": "/myprofileweb/static/media/twitter-svgrepo-com.f98fc735ff3e4e01f002fea7e135bc9d.svg",
+    "static/media/health-svgrepo-com.svg": "/myprofileweb/static/media/health-svgrepo-com.434a51be5fbddcf3373a526dac9f3336.svg",
+    "static/media/chat-round-unread-svgrepo-com.svg": "/myprofileweb/static/media/chat-round-unread-svgrepo-com.900d9a01830ac105fa085adc84eeff5d.svg",
+    "index.html": "/myprofileweb/index.html",
+    "static/media/hamburger-menu-svgrepo-com.svg": "/myprofileweb/static/media/hamburger-menu-svgrepo-com.67204285f932c91a198a0e50378d991f.svg",
+    "main.9680dd72.css.map": "/myprofileweb/static/css/main.9680dd72.css.map",
+    "main.29293113.js.map": "/myprofileweb/static/js/main.29293113.js.map",
+    "787.e53f9a69.chunk.js.map": "/myprofileweb/static/js/787.e53f9a69.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9680dd72.css",
+    "static/js/main.29293113.js"
+  ]
+}
