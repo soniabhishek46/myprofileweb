@@ -1,5 +1,3 @@
-version: '3.4'
-
 services:
   profilewebsite:
     image: profilewebsite
@@ -12,8 +10,7 @@ services:
       - 3000:3000
     volumes:
       - ./src:/usr/src/app/src
-      - ~/.gitconfig:/root/.gitconfig
-      - ~/.ssh:/root/.ssh
-      - ./.git:/usr/src/app/.git
+      
+      
 
 

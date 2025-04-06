@@ -6,7 +6,6 @@
     "@testing-library/jest-dom": "*",
     "@testing-library/react": "*",
     "@testing-library/user-event": "*",
-    "gh-pages": "*",
     "react": "*",
     "react-dom": "*",
     "react-router-dom": "*",
