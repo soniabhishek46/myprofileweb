@@ -14,6 +14,5 @@ services:
       - ./src:/usr/src/app/src
       - ~/.gitconfig:/root/.gitconfig
       - ~/.ssh:/root/.ssh
-      - /usr/bin/git:/usr/bin/git
 
 
