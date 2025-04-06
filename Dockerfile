@@ -10,4 +10,4 @@ COPY . .
 EXPOSE 3000 22
 RUN chown -R node /usr/src/app
 USER node
-CMD ["/usr/sbin/sshd", "-D", "&&", "npm", "start"]
+CMD ["npm", "start"]
