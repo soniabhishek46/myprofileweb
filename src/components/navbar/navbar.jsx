@@ -1,54 +1,24 @@
-import {useState, useRef,  } from 'react';
+import {useState, useRef} from 'react';
 import './navbar.css';
 import useOnClickOutside from './useOutside';
 import menu_hamburger from './images/hamburger-menu-svgrepo-com.svg'
 import menu_cross from './images/cross-svgrepo-com.svg'
-
+import { Link } from "react-router-dom";
 
 function NavBar({compSelect}){
     const [show, setShow] = useState(false);
 
-    function handle_home(e){
-        e.preventDefault();
-        compSelect('home');
-        setShow(false);
-    }
-
-    function handle_tech_interests(e){
-        e.preventDefault();
-        compSelect('tech-interests');
-        setShow(false);
-    }
-
-    function handle_interests(e){
-        e.preventDefault();
-        compSelect('interests');
-        setShow(false);
-    }
-
-    function handle_other_links(e){
-        e.preventDefault();
-        compSelect('other-links')
-        setShow(false);
-    }
-
     return(
         <nav className='my-2'>
             <div className='flex justify-between items-center'>
-            <div><h4 className="font-bold text-slate-500">Abhishek Soni</h4></div>
+            <div><h3 className="text-slate-500 text-3xl font-serif">Abhishek Soni</h3></div>
             <ul className='hidden gap-2 md:flex md:gap-4'>
-                <li><a href='/' onClick={handle_home} className='text-slate-500'>Home</a></li>
-                <li><a href='/' onClick={handle_tech_interests} className='text-slate-500'>Tech Interests</a></li>
-                <li><a href='/' onClick={handle_interests} className='text-slate-500'>Interests</a></li>
-                <li><a href='/' onClick={handle_other_links} className='text-slate-500'>Other Links</a></li>
+                <li><Link to='/' className='text-slate-500'>Home</Link></li>
+                <li><Link to='/tech-interests' className='text-slate-500'>Tech-Interests</Link></li>
+                <li><Link to='/other-interests' className='text-slate-500'>Interests</Link></li>
+                <li><Link to='/social-links' className='text-slate-500'>Other-Links</Link></li>
             </ul>
-            <HamburgerMenu handle_home={handle_home}
-                           handle_tech_interests={handle_tech_interests}
-                           handle_interests={handle_interests}
-                           handle_other_links={handle_other_links}
-                           show={show}
-                           setShow={setShow} 
-                            />
+            <HamburgerMenu show={show} setShow={setShow} />
             </div>
         </nav>
     );
@@ -58,8 +28,6 @@ function NavBar({compSelect}){
 function HamburgerMenu(params){
     const ref = useRef(null);
     const ref2 = useRef(null);
-
-    //const [show, setShow] = useState(false);
 
     function onHamburgerClick(e){
         params.setShow(!params.show);
@@ -74,10 +42,10 @@ function HamburgerMenu(params){
     <div id="hamburger-menu" className='relative block md:hidden'>
         <button className="w-8" onClick={onHamburgerClick} ref={ref}><HIcon open={params.show} /></button>
         <div className= {popup_classes} ref={ref2}>
-            <div className="my-1 text-slate-500"><a href='/' onClick={params.handle_home}>Home</a></div>
-            <div className="my-1 text-slate-500"><a href='/' onClick={params.handle_tech_interests}>Tech Interests</a></div>
-            <div className="my-1 text-slate-500"><a href='/' onClick={params.handle_interests}>Interests</a></div>
-            <div className="my-1 text-slate-500"><a href='/' onClick={params.handle_other_links}>Other Links</a></div>
+            <div className="my-1 text-slate-500" onClick={()=>params.setShow(false)}><Link to='/' >Home</Link></div>
+            <div className="my-1 text-slate-500" onClick={()=>params.setShow(false)}><Link to='/tech-interests' >Tech Interests</Link></div>
+            <div className="my-1 text-slate-500" onClick={()=>params.setShow(false)}><Link to='/other-interests' >Interests</Link></div>
+            <div className="my-1 text-slate-500" onClick={()=>params.setShow(false)}><Link to='/social-links' >Other Links</Link></div>
         </div>
     </div>
     );
