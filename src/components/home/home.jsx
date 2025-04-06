@@ -8,7 +8,7 @@ function Home(){
             <div className="text-center w-[80%] text-slate-500 font-serif text-lg">
                 Hi,
                 I am a Software Engineer based out of Mumbai India.
-                I code in Python for a living. In my free time I like to dabble with and build React Web apps. Also learning Machine Learning, to keep up with the times.
+                I code in Python for a living. In my free time I like to dabble with and build React Web apps. I am also learning Machine Learning, to keep up with the times.
                 I also have some work experience in C/C++ during the initial years of my career.
             </div>
         </div>

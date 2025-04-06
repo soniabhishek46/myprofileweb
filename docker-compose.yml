@@ -12,3 +12,8 @@ services:
       - 3000:3000
     volumes:
       - ./src:/usr/src/app/src
+      - ~/.gitconfig:/root/.gitconfig
+      - ~/.ssh:/root/.ssh
+      - /usr/bin/git:/usr/bin/git
+
+
