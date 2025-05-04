@@ -66,7 +66,7 @@ export function SocialLinks(){
     const points = [
                     {img_url: ghimg, text: (<a href='https://github.com/soniabhishek46'>Github</a>), id: 1},
                     {img_url: emailimg, text: (<a href='mailto:soni.abhishek@outlook.in'>EMail</a>), id: 2},
-                    {img_url: rcvimg, text: (<a href='https://drive.google.com/file/d/1-bZso8-UKwQUN0zUhKWDMZYu_3HjMJ-B/view?usp=sharing'>CV/Resume</a>), id: 3}
+                    {img_url: rcvimg, text: (<a href='https://drive.google.com/file/d/1-E7FE7QW6VnqhvW1VNeihOer_Q6Vy5S0/view?usp=sharing'>CV/Resume</a>), id: 3}
                     ];
     const para = 'Contact me by clicking or following the above links...';
     
