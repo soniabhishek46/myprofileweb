@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-roboto: "Roboto", sans-serif; 
+    --font-lora: "Lora", serif;
+  }
+
+@custom-variant dark (&:where(.dark, .dark *));

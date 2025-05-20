@@ -1,0 +1,8 @@
+.my-svg-style {
+
+}
+
+.my-svg-style svg path {
+  stroke: blue;
+  stroke-width: 2;
+}

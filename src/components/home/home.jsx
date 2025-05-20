@@ -5,7 +5,7 @@ function Home(){
     return (
         <div className="flex flex-col justify-between items-center gap-20">
             <div className='flex justify-center items-center'><div className='w-60 h-60 overflow-hidden relative rounded-[50%]'><img src={myphoto} alt='Abhishek Soni' className='absolute bottom-0'></img></div></div>
-            <div className="text-center w-[80%] text-slate-500 font-serif text-lg">
+            <div className="text-center w-[80%] font-[lora] text-lg">
                 Hi,
                 I am a Software Engineer based out of Mumbai India.
                 I code in Python for a living. In my free time I like to dabble with and build React Web apps. I am also learning Machine Learning, to keep up with the times.

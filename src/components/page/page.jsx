@@ -16,18 +16,18 @@ import pyimg from './images/python-svgrepo-com.svg';
 function Page({heading, points, para}){
     return(
         <div className="w-[100%] flex flex-col gap-10 md:gap-20">
-            <h4 className='text-center text-slate-500 text-2xl font-extralight font-serif'>{heading}</h4>
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
+            <h4 className='text-center text-2xl font-[lora]'>{heading}</h4>
+            <div className="grid max-md:grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
                 {points.map(point => { return(
-                    <div key={point.id} className="flex items-center gap-4 p-4 shadow-md rounded-md">
+                    <div key={point.id} className="flex items-center gap-4 p-4 shadow-md rounded-md border border-gray-200 dark:bg-gray-400 dark:border-gray-500">
                         <img src={point.img_url} alt={point.text} className="w-10"></img>
-                        <p className='text-slate-500 font-serif text-lg'>{point.text}</p>
+                        <p className='font-[roboto] text-base'>{point.text}</p>
                     </div>
                 )
                 })}
             </div>
             <div className="text-center">
-                <p className='text-slate-500 font-serif text-lg'>{para}</p>
+                <p className='font-[lora] text-lg'>{para}</p>
             </div>
         </div>
     );
