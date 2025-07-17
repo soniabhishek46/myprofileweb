@@ -14,10 +14,10 @@ function NavBar({vwMode, setVwMode}){
             <div className='flex justify-between items-center'>
             <div><h3 className="text-3xl font-[lora]">Abhishek Soni</h3></div>
             <ul className='max-md:hidden md:flex md:gap-4 gap-2 items-baseline'>
-                <li><Link to='/' className='font[roboto] hover:text-slate-600 dark:hover:text-slate-300'>Home</Link></li>
-                <li><Link to='/tech-interests' className='font[roboto] text-md hover:text-slate-600 dark:hover:text-slate-300'>Tech-Interests</Link></li>
-                <li><Link to='/other-interests' className='font[roboto] text-md hover:text-slate-600 dark:hover:text-slate-300'>Interests</Link></li>
-                <li><Link to='/social-links' className='font[roboto] text-md hover:text-slate-600 dark:hover:text-slate-300'>Other-Links</Link></li>
+                <li><Link to='/' className='font[roboto] hover:text-slate-600 dark:hover:text-slate-300 hover:underline hover:decoration-blue-500 hover:decoration-2 hover:underline-offset-4 transition duration-300'>Home</Link></li>
+                <li><Link to='/tech-interests' className='font[roboto] text-md hover:text-slate-600 dark:hover:text-slate-300 hover:underline hover:decoration-blue-500 hover:decoration-2 hover:underline-offset-4 transition duration-300'>Tech-Interests</Link></li>
+                <li><Link to='/other-interests' className='font[roboto] text-md hover:text-slate-600 dark:hover:text-slate-300 hover:underline hover:decoration-blue-500 hover:decoration-2 hover:underline-offset-4 transition duration-300'>Interests</Link></li>
+                <li><Link to='/social-links' className='font[roboto] text-md hover:text-slate-600 dark:hover:text-slate-300 hover:underline hover:decoration-blue-500 hover:decoration-2 hover:underline-offset-4 transition duration-300'>Other-Links</Link></li>
                 <li><ToggleSwitch vwMode={vwMode} setVwMode={setVwMode} /></li>
             </ul>
             <HamburgerMenu show={show} setShow={setShow} vwMode={vwMode} setVwMode={setVwMode}/>
